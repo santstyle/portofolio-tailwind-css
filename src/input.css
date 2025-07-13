@@ -9,3 +9,7 @@ body {
 .hamburger-line {
     @apply w-[30px] h-[2px] block my-2 bg-dark;
 }
+
+.hamburger-active {
+    
+}
