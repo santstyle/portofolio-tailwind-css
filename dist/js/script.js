@@ -1,6 +1,9 @@
-// Hamburger
-const hamburger = document.querySelector('#hamburger');
+document.addEventListener('DOMContentLoaded', function () {
+    const hamburger = document.querySelector('#hamburger');
 
-hamburger.addEventListener('click', function() {
-    hamburger.classList.toggle('hamburger-active')
+    if (hamburger) {
+        hamburger.addEventListener('click', function () {
+            this.classList.toggle('hamburger-active');
+        });
+    }
 });
