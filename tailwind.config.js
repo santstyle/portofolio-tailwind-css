@@ -1,3 +1,4 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ['index.html', './src/**/*.{html,js}'],
   theme: {
@@ -12,16 +13,8 @@ module.exports = {
         secondary: '#6b7280',
       },
       screens: {
-        '2xl': '1120px'
+        '2xl': '1120px',
       },
-    },
-  },
-  variants: {
-    extend: {
-      transform: ['responsive', 'hover', 'focus'],
-      rotate: ['responsive', 'hover', 'focus'],
-      translate: ['responsive', 'hover', 'focus'],
-      scale: ['responsive', 'hover', 'focus'],
     },
   },
   plugins: [],
