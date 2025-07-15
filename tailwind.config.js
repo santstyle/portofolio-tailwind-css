@@ -16,6 +16,8 @@ module.exports = {
         '2xl': '1120px',
       },
     },
+      corePlugins: {
+    scrollBehavior: true},
   },
   plugins: [],
 };
